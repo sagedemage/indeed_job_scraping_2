@@ -11,7 +11,7 @@ Go to the `get_html_content/` directory
 cd get_html_content/
 ```
 
-Create virtual environment
+Create the virtual environment
 ```
 python3 -m venv .venv
 ```
