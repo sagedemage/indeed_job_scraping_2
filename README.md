@@ -21,7 +21,14 @@ Activate the virtual environment
 source .venv/bin/activate
 ```
 
-Install dependencies
+Install dependencies on Ubuntu
+```
+sudo apt install python3-tk python3-dev
+```
+
+**NOTE**: You must install tkinter on Linux to use MouseInfo.
+
+Install pip dependencies
 ```
 pip install -r requirements.txt
 ```
@@ -42,3 +49,4 @@ cargo run
 ## Resources
 - [Selenium headless: How to bypass Cloudflare detection using Selenium - Stack Overflow](https://stackoverflow.com/questions/68289474/selenium-headless-how-to-bypass-cloudflare-detection-using-selenium)
 - [Change the Selenium User Agent: Steps & Best Practices](https://www.zenrows.com/blog/selenium-user-agent#set-custom-user-agent)
+- [CDP Mode - SeleniumBase](https://seleniumbase.io/examples/cdp_mode/ReadMe/)
