@@ -1,3 +1,8 @@
 /target
-chromedriver-binary/chromedriver
-indeed_job_data/*.csv*
+data/*.csv*
+downloaded_files/
+.venv/
+get_html_content/website_screenshots/*.png
+get_html_content/html_content/*.html
+get_html_content/chromedriver-binary/chromedriver
+logs/*.log
