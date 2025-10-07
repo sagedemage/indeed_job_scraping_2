@@ -26,7 +26,7 @@ Install dependencies on Ubuntu
 sudo apt install python3-tk python3-dev
 ```
 
-**Note**: You must install tkinter on Linux to use MouseInfo.
+**Note**: You must install tkinter on Linux to use SeleniumBase CDP Mode.
 
 Install pip dependencies
 ```
