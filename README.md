@@ -6,6 +6,11 @@ Download the ChromeDriver [here](https://developer.chrome.com/docs/chromedriver/
 
 Copy the chromedriver binary to the `get_html_content/chromedriver-binary/` directory.
 
+Go to the `get_html_content/` directory
+```
+cd get_html_content/
+```
+
 Create virtual environment
 ```
 python3 -m venv .venv
