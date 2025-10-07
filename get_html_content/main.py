@@ -9,7 +9,6 @@ def main():
     url = f"{us_indeed_domain}/jobs?q={query}&l={location}&fromage={date_posted_in_days}&start=0"
 
     html, msg = get_indeed_jobs_html_page(url)
-
     print(msg)
 
     if msg == "Success":
