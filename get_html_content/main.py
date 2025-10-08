@@ -20,7 +20,7 @@ def get_indeed_jobs_html_page(url: str) -> tuple[str, str]:
     with SB(uc=True, test=True, locale="en", xvfb=True) as sb:
         sb.activate_cdp_mode(url)
         sb.sleep(2)
-        sb.cdp.maximize()
+        sb.maximize_window()
         sb.uc_gui_click_captcha()
         sb.sleep(10)
         if sb.get_page_title() == "Just a moment...":
