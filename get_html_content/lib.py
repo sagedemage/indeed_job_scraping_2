@@ -17,4 +17,4 @@ def get_window_system() -> WindowingSystem:
             windowing_system.name = "Wayland"
         elif ws_name == "x11":
             windowing_system.name = "X11"
-        return windowing_system
+    return windowing_system
