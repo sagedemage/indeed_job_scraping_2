@@ -1,6 +1,12 @@
 from seleniumbase import SB
+from lib import get_window_system
+import warnings
 
 def main():
+    windowing_system = get_window_system()
+    if windowing_system.name == "Wayland":
+        warnings.warn("Automatically bypassing CAPTCHAs will not work under Wayland!", Warning)
+
     query = "help+desk"
     location = "United+States"
     date_posted_in_days = 7
